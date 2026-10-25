@@ -13,8 +13,6 @@ redirect_from:
 - /projects/09-capturing/
 summary: ''
 blocks:
-- type: text
-  text: camera machine / film work
 - type: heading
   text: '[09.i] Sequences;'
 - type: heading

@@ -23,8 +23,8 @@ summary: Architecture is Art is an exhibition branch under the Getty Institiute 
 blocks:
 - type: text
   text: |-
-    to view exhibition catalogue click ***[here](https://www.yumpu.com/en/document/read/68646308/arch524-exhibitioncatalog-spring2023)**.*
-    to view the Getty ‘Keeping it Modern’ Project, click [here](http://kimproject.arch.metu.edu.tr/) for the local page and click ***[her](https://www.getty.edu/projects/keeping-it-modern/)e*** for the global page.
+    to view exhibition catalogue click **[here](https://www.yumpu.com/en/document/read/68646308/arch524-exhibitioncatalog-spring2023)**.
+    to view the Getty ‘Keeping it Modern’ Project, click [here](http://kimproject.arch.metu.edu.tr/) for the local page and click **[here](https://www.getty.edu/projects/keeping-it-modern/)** for the global page.
 - type: gallery
   items:
   - src: /assets/images/architecture-is-art/dscf9928-copy.jpg

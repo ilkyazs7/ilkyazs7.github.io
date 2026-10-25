@@ -34,7 +34,9 @@ blocks:
   src: /assets/images/cnc-knitting/iso-diag-1.jpg
   caption: the cnc knitted textile is embedded inside the skylight of the studio - directing light colorfully, with various transparency zones into the studio
 - type: heading
-  text: 'Scale [02]: discretization  *the knitting composition is composed of three parts:'
+  text: 'Scale [02]: discretization'
+- type: caption
+  text: 'the knitting composition is composed of three parts:'
 - type: image
   src: /assets/images/cnc-knitting/screenshot-2025-12-31-at-5-22-21pm.png
   caption: i - panel - tube - panel (blue transparent piece at the top) ii - single panel with one opening (pink & blue gradient with transparent in between zones) iii - tubular knit with textures (blue and purple)
@@ -47,7 +49,7 @@ blocks:
   - src: /assets/images/cnc-knitting/screenshot-2025-12-31-at-5-28-43pm.png
   - src: /assets/images/cnc-knitting/screenshot-2025-12-31-at-5-28-48pm.png
   - src: /assets/images/cnc-knitting/screenshot-2025-12-31-at-5-28-55pm.png
-  caption: i -* *jersey with different materiality ii -* *“pluck” module with alternating tuck and float structure for dimensionality iii - ‘streching’ module with elastic yarn for dimensionality
+  caption: i - jersey with different materiality · ii - “pluck” module with alternating tuck and float structure for dimensionality · iii - ‘streching’ module with elastic yarn for dimensionality
 - type: image
   src: /assets/images/cnc-knitting/screenshot-2025-12-31-at-5-35-51pm.png
   caption: Scale [01-02-03]
