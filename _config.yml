@@ -1,0 +1,35 @@
+# Site settings — rarely needs editing.
+# Content lives in _projects/ (research + exhibitions) and _data/ (about, awards, teaching, publications).
+title: "İlkyaz Sarımehmetoğlu"
+description: "Embodied interfaces & soft intelligence — research, awards, teaching and exhibitions."
+url: "https://ilkyazs.com"
+baseurl: ""
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+collections:
+  projects:
+    output: true
+    permalink: /work/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+exclude:
+  - tools
+  - README.md
+  - MOVING-FROM-CARGO.md
+  - site-content.json
+  - Gemfile
+  - Gemfile.lock

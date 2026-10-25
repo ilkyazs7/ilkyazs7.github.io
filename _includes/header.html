@@ -1,0 +1,21 @@
+{%- assign about = site.data.about -%}
+{%- assign at = about.email | split: "@" -%}
+<header class="site-header">
+  <a class="wordmark" href="{{ '/' | relative_url }}">{{ about.name }}</a>
+  <nav class="top-links">
+    {% if about.email != "" %}<a class="email" href="#" data-u="{{ at[0] }}" data-d="{{ at[1] }}">Email</a>{% endif %}
+    {% if about.cv_url != "" %}<a href="{{ about.cv_url }}" target="_blank" rel="noopener">CV</a>{% endif %}
+    {% if about.blog_url != "" %}<a href="{{ about.blog_url }}">Blog</a>{% endif %}
+  </nav>
+</header>
+<nav class="tabs" aria-label="Sections">
+  {%- assign current = page.tab -%}
+  {%- if page.collection == "projects" -%}
+    {%- if page.section == "exhibition" -%}{%- assign current = "Exhibition" -%}{%- else -%}{%- assign current = "Research" -%}{%- endif -%}
+  {%- endif -%}
+  {%- for t in site.data.settings.tabs -%}
+    {%- assign active = false -%}
+    {%- if current == t.label -%}{%- assign active = true -%}{%- endif -%}
+    <a href="{{ t.url | relative_url }}"{% if active %} class="is-active" aria-current="page"{% endif %}>{{ t.label }}</a>
+  {%- endfor -%}
+</nav>

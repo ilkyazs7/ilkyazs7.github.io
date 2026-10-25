@@ -1,0 +1,41 @@
+{%- for b in include.blocks -%}
+  {%- case b.type -%}
+  {%- when "text" -%}
+<div class="b-text">{{ b.text | markdownify }}</div>
+  {%- when "heading" -%}
+<h3 class="b-heading">{{ b.text }}</h3>
+  {%- when "note" -%}
+<p class="b-note">{{ b.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+  {%- when "caption" -%}
+<p class="b-caption-alone">{{ b.text }}</p>
+  {%- when "image" -%}
+<figure class="b-media{% if b.size == 'small' %} is-small{% endif %}">
+  <img src="{{ b.src | relative_url }}" alt="{{ b.caption | default: '' | escape }}" loading="lazy" class="zoomable">
+  {% if b.caption %}<figcaption>{{ b.caption }}</figcaption>{% endif %}
+</figure>
+  {%- when "video" -%}
+<figure class="b-media{% if b.size == 'small' %} is-small{% endif %}">
+  <video src="{{ b.src | relative_url }}" muted autoplay loop playsinline data-src="{{ b.src }}"></video>
+  {% if b.caption %}<figcaption>{{ b.caption }}</figcaption>{% endif %}
+</figure>
+  {%- when "gallery" -%}
+<figure class="b-gallery">
+  <div class="row">
+    {%- for it in b.items -%}
+      {%- assign ext = it.src | split: "." | last | downcase -%}
+      {%- if ext == "mp4" or ext == "mov" or ext == "webm" or it.type == "video" -%}
+    <video src="{{ it.src | relative_url }}" muted autoplay loop playsinline data-src="{{ it.src }}"></video>
+      {%- else -%}
+    <img src="{{ it.src | relative_url }}" alt="" loading="lazy" class="zoomable">
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  {% if b.caption %}<figcaption>{{ b.caption }}</figcaption>{% endif %}
+</figure>
+  {%- when "embed" -%}
+<figure class="b-embed">
+  <div class="embed" data-url="{{ b.url }}"></div>
+  {% if b.caption %}<figcaption>{{ b.caption }}</figcaption>{% endif %}
+</figure>
+  {%- endcase -%}
+{%- endfor -%}

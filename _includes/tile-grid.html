@@ -1,0 +1,10 @@
+{%- comment -%} Image grid beside a table. include.items = projects in table order. {%- endcomment -%}
+<div class="tile-grid" data-grid>
+  {%- for p in include.items -%}
+    {%- if p.cover and p.cover != "" %}
+  <a class="tile" href="{{ p.url | relative_url }}" data-key="{{ p.slug }}">
+    <img src="{{ p.cover | relative_url }}" alt="{{ p.title }}" loading="lazy">
+  </a>
+    {%- endif -%}
+  {%- endfor %}
+</div>

@@ -1,0 +1,238 @@
+# Pages CMS — visual editor for this site at https://app.pagescms.org
+# Sign in with GitHub, open this repository. Each save is a commit; the site
+# republishes a minute or two later.
+
+media:
+  input: assets/images
+  output: /assets/images
+
+components:
+  people:
+    type: string
+    list: true
+
+content:
+  # ---------------------------------------------------------------- research + exhibitions
+  - name: projects
+    label: Research & exhibitions
+    type: collection
+    path: _projects
+    filename: "{primary}.md"
+    view:
+      fields: [title, section, year, type]
+      primary: title
+      sort: [year, title, number]
+      default:
+        sort: year
+        order: desc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: subtitle, label: Subtitle, type: string }
+      - { name: short_title, label: Short title, type: string, description: "Shown under sub-project tiles." }
+      - { name: number, label: Number, type: string, description: "Your own numbering, e.g. 02. Not shown in the table." }
+      - name: section
+        label: Tab
+        type: select
+        options: { values: [research, exhibition] }
+      - name: theme
+        label: Theme
+        type: select
+        options:
+          values:
+            - "Soft Intelligence: Embodied Mind"
+            - "Situated Machines: Measurement Instruments"
+            - "Digital to Physical: Advanced Fabrication"
+            - "Machine"
+            - "Leftover Project"
+      - { name: parent, label: Parent project, type: string, description: "For sub-projects only, e.g. machines-of-making." }
+      - { name: year, label: Year (for the table), type: number }
+      - { name: period, label: Date as written, type: string, description: "e.g. 2023–2024 Fall" }
+      - name: type
+        label: Type
+        type: select
+        options: { values: [Academic, Personal, Exhibition, Research, Commission] }
+      - name: mode
+        label: Group or individual
+        type: select
+        options: { values: [Group, Individual] }
+      - { name: role, label: Your role, type: string }
+      - { name: institution, label: Institution, type: string }
+      - { name: institution_short, label: Institution (short, for the table), type: string }
+      - { name: program, label: Program, type: string }
+      - { name: course, label: Course, type: string }
+      - { name: venue, label: Venue, type: string }
+      - { name: city, label: City, type: string }
+      - { name: country, label: Country code, type: string, description: "Two letters, e.g. US, TR" }
+      - { name: machine, label: Machine, type: string }
+      - { name: status, label: Status, type: string }
+      - { name: instructors, label: Instructors, component: people }
+      - { name: collaborators, label: Collaborators, component: people }
+      - { name: contributors, label: Contributors, component: people }
+      - { name: acknowledgements, label: Acknowledgements, component: people }
+      - name: parts
+        label: Sub-projects described on this page
+        type: object
+        list: true
+        fields:
+          - { name: title, type: string }
+          - { name: number, type: string }
+          - { name: period, label: Date, type: string }
+          - { name: mode, type: string }
+          - { name: course, type: string }
+          - { name: instructors, component: people }
+          - { name: contributors, component: people }
+      - name: credits
+        label: Credits
+        type: object
+        list: true
+        fields:
+          - { name: group, label: Heading, type: string }
+          - { name: names, component: people }
+      - name: links
+        label: Links
+        type: object
+        list: true
+        fields:
+          - { name: label, type: string }
+          - { name: url, type: string }
+      - { name: cover, label: Thumbnail, type: image }
+      - { name: hover_image, label: Alternative thumbnail, type: image }
+      - { name: hidden, label: Hide from the site, type: boolean, default: false }
+      - { name: summary, label: Opening paragraph, type: rich-text, options: { format: markdown } }
+      - name: blocks
+        label: Page content
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: text
+            label: Text
+            fields:
+              - { name: text, type: rich-text, options: { format: markdown } }
+          - name: heading
+            label: Heading
+            fields:
+              - { name: text, type: string }
+          - name: image
+            label: Image
+            fields:
+              - { name: src, label: Image, type: image }
+              - { name: caption, type: string }
+              - name: size
+                type: select
+                options: { values: [full, small] }
+          - name: gallery
+            label: Images side by side
+            fields:
+              - name: items
+                type: object
+                list: true
+                fields:
+                  - { name: src, label: Image, type: image }
+              - { name: caption, type: string }
+          - name: video
+            label: Video file
+            fields:
+              - { name: src, label: Video (.mp4), type: file }
+              - { name: caption, type: string }
+          - name: embed
+            label: YouTube / Vimeo / SoundCloud
+            fields:
+              - { name: url, label: Link, type: string }
+              - { name: caption, type: string }
+          - name: caption
+            label: Small note
+            fields:
+              - { name: text, type: string }
+          - name: note
+            label: Grey italic line
+            fields:
+              - { name: text, type: string }
+      - { name: redirect_from, label: Old addresses, type: string, list: true, hidden: true }
+
+  # ---------------------------------------------------------------- lists
+  - name: awards
+    label: Awards
+    type: file
+    path: _data/awards.yml
+    list: true
+    fields:
+      - { name: title, type: string }
+      - { name: granted_by, label: Granted by, type: string }
+      - { name: country, type: string }
+      - name: type
+        type: select
+        options: { values: [Fellowship, Scholarship, Grant, Competition, Prize, Award] }
+      - { name: year, type: number }
+      - { name: period, label: Date as written, type: string }
+      - { name: note, type: string }
+      - { name: related, label: Related project (file name without .md), type: string }
+
+  - name: teaching
+    label: Teaching
+    type: file
+    path: _data/teaching.yml
+    list: true
+    fields:
+      - { name: title, type: string }
+      - { name: role, type: string }
+      - { name: institution, type: string }
+      - { name: country, type: string }
+      - name: type
+        type: select
+        options: { values: [Course, Workshop, Studio, Lecture] }
+      - { name: year, type: number }
+      - { name: period, label: Date as written, type: string }
+      - { name: related, label: Related project (file name without .md), type: string }
+
+  - name: publications
+    label: Publications
+    type: file
+    path: _data/publications.yml
+    list: true
+    fields:
+      - { name: title, type: string }
+      - { name: authors, type: string }
+      - { name: venue, label: Published in, type: string }
+      - { name: publisher, type: string }
+      - { name: pages, type: string }
+      - name: type
+        type: select
+        options: { values: [Conference paper, Journal article, Book chapter, Thesis, Other] }
+      - { name: year, type: number }
+      - { name: period, label: Date as written, type: string }
+      - { name: url, label: Link, type: string }
+      - { name: related, label: Related project (file name without .md), type: string }
+
+  - name: about
+    label: About
+    type: file
+    path: _data/about.yml
+    fields:
+      - { name: name, type: string }
+      - { name: pronouns, type: string }
+      - { name: tagline, type: string }
+      - { name: role, type: string }
+      - { name: affiliation, type: string }
+      - { name: email, type: string }
+      - { name: cv_url, label: CV link, type: string }
+      - { name: blog_url, label: Blog link, type: string, description: "Leave empty to hide." }
+      - { name: blog_label, label: Blog link text, type: string }
+      - { name: portrait, label: Portrait (shown on About), type: image }
+      - { name: bio, label: Bio paragraphs, type: text, list: true }
+      - { name: footer, type: string }
+
+  - name: settings
+    label: Site settings
+    type: file
+    path: _data/settings.yml
+    fields:
+      - name: tabs
+        type: object
+        list: true
+        fields:
+          - { name: label, type: string }
+          - { name: url, type: string }
+      - { name: accent, label: Accent colour, type: string }
+      - { name: grayscale_thumbnails, label: Black & white thumbnails, type: boolean }
+      - { name: show_cargo_images, label: Show Cargo copies of missing images, type: boolean }

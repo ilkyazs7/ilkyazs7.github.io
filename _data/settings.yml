@@ -1,0 +1,23 @@
+# The tabs across the top, in order. "url" must match a page's permalink.
+tabs:
+  - label: Research
+    url: /
+  - label: Awards
+    url: /awards/
+  - label: Teaching
+    url: /teaching/
+  - label: Exhibition
+    url: /exhibition/
+  - label: About
+    url: /about/
+
+# Accent colour for hover, active tab and links.
+accent: "#2600FF"
+
+# true = thumbnails in the image grids are shown in black & white (like aatb.ch)
+grayscale_thumbnails: false
+
+# While images are still missing, the site shows grey placeholder boxes with the
+# file name. Set to true to temporarily show Cargo's copies instead
+# (only works while the Cargo site is still online).
+show_cargo_images: false

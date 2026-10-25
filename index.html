@@ -1,0 +1,37 @@
+---
+layout: default
+title: Research
+tab: Research
+---
+{%- assign items = site.projects | where: "section", "research" | where_exp: "p", "p.hidden != true" | where_exp: "p", "p.parent == nil" | sort: "year", "first" | reverse -%}
+<main class="archive">
+  <div class="archive-table">
+    <table data-sortable>
+      <colgroup><col class="c-title"><col class="c-inst"><col class="c-country"><col class="c-type"><col class="c-year"></colgroup>
+      <thead>
+        <tr>
+          <th data-sort="title">Title</th>
+          <th data-sort="inst">Institution</th>
+          <th data-sort="country">Country</th>
+          <th data-sort="type">Type</th>
+          <th data-sort="year" data-num class="num">Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for p in items %}
+        <tr data-key="{{ p.slug }}" data-href="{{ p.url | relative_url }}"
+            data-title="{{ p.title | escape }}" data-inst="{{ p.institution_short | default: p.institution | escape }}" data-country="{{ p.country }}" data-type="{{ p.type }}" data-year="{{ p.year | default: 0 }}">
+          <td class="t-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
+          <td>{{ p.institution_short | default: p.institution | default: "Independent" }}</td>
+          <td>{{ p.country }}</td>
+          <td>{{ p.type }}</td>
+          <td class="num">{{ p.year }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="archive-images">
+    {% include tile-grid.html items=items %}
+  </div>
+</main>

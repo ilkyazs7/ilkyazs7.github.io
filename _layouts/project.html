@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{%- assign p = page -%}
+<main class="project">
+  <aside class="project-meta">
+    {% if p.parent %}
+      {% assign parent = site.projects | where: "slug", p.parent | first %}
+      {% if parent %}<a class="back" href="{{ parent.url | relative_url }}">← {{ parent.title }}</a>{% endif %}
+    {% else %}
+      <a class="back" href="{{ '/' | relative_url }}{% if p.section == 'exhibition' %}exhibition/{% endif %}">← {% if p.section == 'exhibition' %}Exhibition{% else %}Research{% endif %}</a>
+    {% endif %}
+    <h1 class="project-title">{{ p.title }}</h1>
+    {% if p.subtitle %}<p class="project-subtitle">{{ p.subtitle }}</p>{% endif %}
+    {% include meta.html p=p %}
+    {% for part in p.parts %}
+      <div class="part-meta">
+        <div class="part-title">{% if part.number %}[{{ part.number }}] {% endif %}{{ part.title }}</div>
+        {% include meta.html p=part %}
+      </div>
+    {% endfor %}
+  </aside>
+
+  <article class="project-body">
+    {% if p.summary and p.summary != "" %}<div class="lead">{{ p.summary | markdownify }}</div>{% endif %}
+    {% include blocks.html blocks=p.blocks %}
+
+    {%- assign children = site.projects | where: "parent", p.slug | where_exp: "c", "c.hidden != true" | sort: "number" -%}
+    {% if children.size > 0 %}
+    <div class="related">
+      {% for c in children %}
+      <a class="related-item tile" href="{{ c.url | relative_url }}" data-key="{{ c.slug }}">
+        <img src="{{ c.cover | relative_url }}" alt="{{ c.title }}" loading="lazy">
+        <span class="related-caption"><em>{{ c.title }}</em>{% if c.short_title %}<br>{{ c.short_title }}{% endif %}</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+</main>

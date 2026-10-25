@@ -1,0 +1,39 @@
+---
+layout: default
+title: Exhibition
+tab: Exhibition
+permalink: /exhibition/
+---
+{%- assign items = site.projects | where: "section", "exhibition" | where_exp: "p", "p.hidden != true" | sort: "year", "first" | reverse -%}
+<main class="archive">
+  <div class="archive-table">
+    <table data-sortable>
+      <colgroup><col class="c-title"><col class="c-inst"><col class="c-country"><col class="c-type"><col class="c-year"></colgroup>
+      <thead>
+        <tr>
+          <th data-sort="title">Title</th>
+          <th data-sort="venue">Venue</th>
+          <th data-sort="country">Country</th>
+          <th data-sort="role">Role</th>
+          <th data-sort="year" data-num class="num">Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for p in items %}
+        {%- assign role = p.role | split: ";" | first -%}
+        <tr data-key="{{ p.slug }}" data-href="{{ p.url | relative_url }}"
+            data-title="{{ p.title | escape }}" data-venue="{{ p.venue | escape }}" data-country="{{ p.country }}" data-role="{{ role | escape }}" data-year="{{ p.year | default: 0 }}">
+          <td class="t-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></td>
+          <td>{{ p.venue }}{% if p.city %}, {{ p.city }}{% endif %}</td>
+          <td>{{ p.country }}</td>
+          <td>{{ role }}</td>
+          <td class="num">{{ p.year }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="archive-images">
+    {% include tile-grid.html items=items %}
+  </div>
+</main>

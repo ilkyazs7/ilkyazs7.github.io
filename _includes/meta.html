@@ -1,0 +1,20 @@
+{%- comment -%} Fact list for a project or a project part. include.p = the record. {%- endcomment -%}
+{%- assign rec = include.p -%}
+<dl class="facts">
+  {% if rec.period %}<dt>Date</dt><dd>{{ rec.period }}</dd>{% endif %}
+  {% if rec.type and rec.type != "" %}<dt>Type</dt><dd>{{ rec.type }}{% if rec.mode %} · {{ rec.mode }} work{% endif %}</dd>{% elsif rec.mode %}<dt>Type</dt><dd>{{ rec.mode }} work</dd>{% endif %}
+  {% if rec.role %}<dt>Role</dt><dd>{{ rec.role | replace: ";", "," }}</dd>{% endif %}
+  {% if rec.venue %}<dt>Venue</dt><dd>{{ rec.venue }}</dd>{% endif %}
+  {% if rec.institution %}<dt>Institution</dt><dd>{{ rec.institution }}</dd>{% endif %}
+  {% if rec.program %}<dt>Program</dt><dd>{{ rec.program }}</dd>{% endif %}
+  {% if rec.course %}<dt>Course</dt><dd>{{ rec.course }}</dd>{% endif %}
+  {% if rec.city or rec.country %}<dt>Location</dt><dd>{{ rec.city }}{% if rec.city and rec.country %}, {% endif %}{{ rec.country }}</dd>{% endif %}
+  {% if rec.machine %}<dt>Machine</dt><dd>{{ rec.machine }}</dd>{% endif %}
+  {% if rec.instructors.size > 0 %}<dt>Instructors</dt><dd>{{ rec.instructors | join: "<br>" }}</dd>{% endif %}
+  {% if rec.collaborators.size > 0 %}<dt>Collaborators</dt><dd>{{ rec.collaborators | join: "<br>" }}</dd>{% endif %}
+  {% if rec.contributors.size > 0 %}<dt>Contributors</dt><dd>{{ rec.contributors | join: "<br>" }}</dd>{% endif %}
+  {% if rec.acknowledgements.size > 0 %}<dt>Acknowledgements</dt><dd>{{ rec.acknowledgements | join: "<br>" }}</dd>{% endif %}
+  {% if rec.status %}<dt>Status</dt><dd>{{ rec.status }}</dd>{% endif %}
+  {% for c in rec.credits %}<dt>{{ c.group }}</dt><dd>{{ c.names | join: "<br>" }}</dd>{% endfor %}
+  {% for l in rec.links %}<dt>Link</dt><dd><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></dd>{% endfor %}
+</dl>

@@ -1,0 +1,2169 @@
+{
+ "about": {
+  "name": "İlkyaz Sarımehmetoğlu",
+  "pronouns": "she/her/hers",
+  "tagline": "embodied interfaces & soft intelligence",
+  "role": "Transdisciplinary designer, researcher, and dancer",
+  "affiliation": "Master of Science in Design Computation (’27) candidate, MIT",
+  "email": "ilkyazs@mit.edu",
+  "cv_url": "https://drive.google.com/file/d/1H-ei93_hHOUkkT53fl9qg6IS2k8PepB2/view?usp=sharing",
+  "blog_url": "",
+  "blog_label": "how the brain machine works (blog)",
+  "portrait": "",
+  "bio": [
+   "İlkyaz Sarımehmetoğlu is a transdisciplinary designer, researcher, and dancer exploring how machines think and communicate through material skins. Her research centers on embodied interfaces, computational textiles, and responsive material systems that integrate sensing, haptics, and computation. She is a **Master of Science in Design Computation (’27)** candidate at **MIT**.",
+   "Her research draws on advanced fabrication methods, including CNC machine knitting, robotic fabrication, and soft material systems to develop bi-directional interfaces. Through these systems, she reframes textiles and material assemblies as active participants in human–machine interaction, performance, and making."
+  ],
+  "footer": "© 2025 İlkyaz Sarımehmetoğlu. All rights reserved."
+ },
+ "research": [
+  {
+   "slug": "sensing-glove",
+   "title": "Sensing Through the Body: Glove for AR Interaction",
+   "number": "00",
+   "section": "research",
+   "theme": "Soft Intelligence: Embodied Mind",
+   "year": 2025,
+   "period": "2025–2026 Fall",
+   "type": "Academic",
+   "mode": "Group",
+   "institution": "Massachusetts Institute of Technology",
+   "institution_short": "MIT",
+   "course": "3.173 Computing Fabrics",
+   "city": "Cambridge",
+   "country": "US",
+   "collaborators": [
+    "Clara Emmerling"
+   ],
+   "cover": "/assets/images/sensing-glove/thumbnail.png",
+   "hover_image": "/assets/images/sensing-glove/img-20251208-wa0052.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[00]-sensing-through-the-body-glove-for-ar-interaction/",
+    "/projects/00-sensing-glove/"
+   ],
+   "summary": "Human–machine interfaces (HMIs) are increasingly designed to incorporate sensing and haptic output, creating more intuitive and immersive interactions across fields such as healthcare, robotics, and AR/VR. Developments in soft electronics are accelerating this shift, enabling interactions that move beyond rigid devices toward soft, wearable systems.",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/img-20251208-wa0052.jpg"
+    },
+    {
+     "type": "text",
+     "text": "Sensing capabilities can be seamlessly integrated into textile-based wearables through digital machine knitting and the incorporation of functional materials. This project focuses on designing a system with an integrated Neural Network fiber for an astronaut’s inner glove which can provide gesture detection for **complex Augmented Reality missions in lunar environments**. The outer glove makes it significantly difficult for performing finger moving gestures or contacting to other surfaces of interactions like buttons. By integrating gesture detection the need for providing a contact surface is eliminated."
+    },
+    {
+     "type": "text",
+     "text": "**Astronauts Outer Glove:**\nThick insulated shell, difficult to use\ndelicate instruments + equipment"
+    },
+    {
+     "type": "text",
+     "text": "**Astronauts Inner Glove:**\nSmart + gesture-detecting layer used\nfor navigation and communication?"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-130647.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-130652.png"
+    },
+    {
+     "type": "text",
+     "text": "The main design concept for the glove was to make it modular and adaptable for different use scenarios and users as there is a need for customization."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/diagrams-all-converted.png",
+     "caption": "system design diagram"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/diagrams-all-converted-01.png"
+      },
+      {
+       "src": "/assets/images/sensing-glove/diagrams-all-converted-02.png"
+      }
+     ],
+     "caption": "design idea and implementation: modularizing the glove [01], schematic glove system [02]"
+    },
+    {
+     "type": "heading",
+     "text": "design - 1"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/diagrams-all-converted-04.png"
+      },
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-134348.png"
+      }
+     ],
+     "caption": "schematic & prototype"
+    },
+    {
+     "type": "heading",
+     "text": "design - 2"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/diagrams-all-converted-05.png"
+      },
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-134647.png"
+      }
+     ],
+     "caption": "schematic & prototype"
+    },
+    {
+     "type": "heading",
+     "text": "knit prototyping"
+    },
+    {
+     "type": "caption",
+     "text": "on domestic single bed silvereed"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-134942.png"
+      },
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-134948.png"
+      }
+     ],
+     "caption": "first prototype [01]"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-135000.png"
+      },
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-134955.png"
+      }
+     ],
+     "caption": "second [02] third [03]"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-135902.png",
+     "caption": "stitch pattern generation for complete glove garment"
+    },
+    {
+     "type": "heading",
+     "text": "knit prototyping stages"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-140626.png",
+     "size": "small",
+     "caption": "cast-on [t0]"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-140632.png"
+      },
+      {
+       "src": "/assets/images/sensing-glove/screenshot-2026-01-02-140637.png"
+      }
+     ],
+     "caption": "insertion of the NN fiber [t1]"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-140641.png",
+     "size": "small",
+     "caption": "and carrying it through the glove skin [t2]"
+    },
+    {
+     "type": "heading",
+     "text": "in-fiber neural network (NN)"
+    },
+    {
+     "type": "text",
+     "text": "the embedded fiber has an accelerometer that is trained for gesture recognition of different behaviors. the two designs had different gestures for recognition. design 1 gestures were **curl [1] and idle [2]**. whereas for design 2 the gestures were **curl [1], idle [2] and right swipe [3]**."
+    },
+    {
+     "type": "caption",
+     "text": "training set strategy"
+    },
+    {
+     "type": "text",
+     "text": "about 60 samples per gesture class\nsamples with different time ranges (from 0.5 to 4s)"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-142316.png",
+     "caption": "design - 1 metrics"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-142404.png",
+     "caption": "design - 2 metrics"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/flex-pcb-routing-diagram.png",
+     "caption": "electronics scheme diagram for embedded pcb"
+    },
+    {
+     "type": "heading",
+     "text": "AR interface used with the Sensing Glove"
+    },
+    {
+     "type": "video",
+     "src": "/assets/images/sensing-glove/0000.mp4",
+     "caption": "used software: Unity gesture legend: curling [create element], right swipe [delete element]"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/screenshot-2026-01-02-at-10-30-02pm.png",
+     "caption": "system development for intelligent navigation in lunar environments: AR interface prototype designed by Qilmeg Doudatcz"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/img-20251208-wa0048.jpg",
+     "caption": "extra +"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/sensing-glove/websiteknitsamples.png",
+     "caption": "diverse patterns that could be incorporated in the glove modules for diverse haptics, texture library and tactility"
+    },
+    {
+     "type": "text",
+     "text": "The samples showcase differrent patterns that introduce 3D extrustions, some introduce local climaxes within regions of pattern introduction whereas some introduce more homogenous textures throughout the samples. These are couple examples that have just 3 different needle actions executed on the Silvereed manual knitting machine with DesignaKnit software."
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/sensing-glove/whatsapp-image-2025-12-08-at-04-11-51-1.jpeg"
+      },
+      {
+       "src": "/assets/images/sensing-glove/whatsapp-image-2025-12-08-at-04-11-51.jpeg"
+      },
+      {
+       "src": "/assets/images/sensing-glove/whatsapp-image-2025-12-08-at-04-11-53-1.jpeg"
+      },
+      {
+       "src": "/assets/images/sensing-glove/whatsapp-image-2025-12-08-at-04-11-53.jpeg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "textile-jukebox",
+   "title": "Tactile Intelligence: Haptic Library / Textile Jukebox",
+   "short_title": "Textile Jukebox",
+   "number": "01",
+   "section": "research",
+   "theme": "Soft Intelligence: Embodied Mind",
+   "year": 2024,
+   "period": "2024–2025 Fall",
+   "type": "Academic",
+   "mode": "Group",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Capstone",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Sean Ahlquist"
+   ],
+   "collaborators": [
+    "Lucas Yan"
+   ],
+   "acknowledgements": [
+    "University of Michigan, ArtsEngine Student MicroGrant",
+    "University of Michigan, Rackham Graduate Student Research Grant",
+    "Ricardo Tiangson"
+   ],
+   "cover": "/assets/images/textile-jukebox/thumbnail2.png",
+   "hidden": false,
+   "redirect_from": [
+    "/[01]-tactile-intelligence-1/",
+    "/projects/01-tactile-intelligence/"
+   ],
+   "summary": "**This research explores how knitted fabrics can produce haptic (touch-based) languages, changing shape and texture, to create new ways of experiencing touch. Using air pressure and knitted-textile surfaces of operation, the research develops soft, flexible textiles that can inflate and deflate to produce different sensations.**",
+   "blocks": [
+    {
+     "type": "note",
+     "text": "☺ did you ever hug your environment? did you have a reason to? ☺"
+    },
+    {
+     "type": "text",
+     "text": "By integrating CNC-knitted textiles with silicone bladder systems, the project foregrounds material intelligence as an operative design medium, demonstrating how responsiveness can emerge from the coupling of computation, material behavior, and embodied interaction. Rather than treating actuation as an external or purely technical operation, the research situates tactile and haptic engagement as central to how the system performs and communicates, allowing textile behaviors to unfold through programmed inflation and deflation embedded directly within the knitted structure."
+    },
+    {
+     "type": "text",
+     "text": "At the core of the system is a modular library of silicone bladders with varied geometries, which function as material primitives for deformation and movement. These bladders are integrated into a multi-manifold pneumatic setup that enables independent and continuous control of inflation and deflation, supporting a range of actuation modes such as rhythmic “breathing,” localized swelling, and sequential transformations. Rather than producing fixed or representational outcomes, these behaviors are designed to remain adaptive, variable, and perceptible through touch, emphasizing interaction over visual spectacle alone."
+    },
+    {
+     "type": "text",
+     "text": "Through this approach, the project advances a notion of soft intelligence, where intelligence is not centralized in control logic but distributed across materials, textile structures, pneumatic dynamics, and human engagement. The textile does not merely execute commands; it participates in shaping the interaction through its textures. Textile Jukebox thus reframes textiles as active haptic interfaces capable of mediating between bodies, machines, and environments, and suggests new possibilities for responsive architectural and design systems grounded in material agency and embodied experience."
+    },
+    {
+     "type": "text",
+     "text": "**A significant proportion of the preceding work centers on composing shape changes through inflating molded silicon bladders of various forms and configurations. In contrast, not many interrogate the ways of creating and reconfiguring texture.**"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-102040.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/artboard-1-copy2x.png",
+     "caption": "problem definition"
+    },
+    {
+     "type": "caption",
+     "text": "system design scheme"
+    },
+    {
+     "type": "heading",
+     "text": "3 components: knitted textile [1], pneumatic system [2], and interaction [3]"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/artboard-1-copy-22x.png"
+    },
+    {
+     "type": "heading",
+     "text": "[01] knitted textile"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/artboard-1-copy-11covers.png",
+     "size": "small"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-102441.png",
+     "caption": "system components and design of knitted surface"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2024-12-12-164149.png",
+     "caption": "knitting technique for expansive surfaces"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-102624.png",
+     "caption": "structuring in nylastic yarn for introducing extra material for extra expansion"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2024-12-12-163829.png",
+     "caption": "knitting technique for constraining bladders"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-102953.png",
+     "caption": "creating a double-layered knitted textile and collapsing two layers for bladder constraint"
+    },
+    {
+     "type": "heading",
+     "text": "[02] pneumatic system"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/artboard-1-copy-9covers.png",
+     "size": "small"
+    },
+    {
+     "type": "video",
+     "src": "/assets/images/textile-jukebox/kacmb-converted.mp4",
+     "caption": "the aim was to achieve variability in inflation affecting the haptic response"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-104811.png",
+     "caption": "thinner upper layer and thicker layers"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-104816.png"
+    },
+    {
+     "type": "video",
+     "src": "/assets/images/textile-jukebox/fab2.mp4",
+     "caption": "mold fabrication and multi-stage casting of different thicknesses"
+    },
+    {
+     "type": "video",
+     "src": "/assets/images/textile-jukebox/fab1.mp4"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-110549.png",
+     "caption": "embedded pneumatic bladders placement and valve connection for different actuation cycles. with different cycles various interactions can be programmed and controlled"
+    },
+    {
+     "type": "heading",
+     "text": "[03] interaction"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/artboard-1-copy-12covers.png",
+     "size": "small"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-104439.png",
+     "caption": "diverse haptic interactions"
+    },
+    {
+     "type": "heading",
+     "text": "[01] x [02] x [03]: for variety in kinetic and cutaneous feedback"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/artboard-1-copy-14covers.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-111031.png",
+     "caption": "tactile library: tactile qualities over inflation and time; static states and dynamic interactions in between"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/screenshot-2026-01-02-111037.png",
+     "caption": "stages in between: diverse actuation levels revealing diverse tactile qualities"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/cover.png",
+     "caption": "retro-fitting in the surrounding space: designed textile construction is tensioned around benign everyday objects to forumalte mediated high-sensory environments around the everyday surroundings space capable of introducing multiple people in its space-making"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/eFQdFLhuw9Q",
+     "caption": "tactile library in action:"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/8tdSCXUrl64"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/1k6rLCmN65U"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/1B2_kVHnUc8"
+    },
+    {
+     "type": "caption",
+     "text": "various extras+"
+    },
+    {
+     "type": "text",
+     "text": "software interface: linking ☹"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/whatsapp-image-2026-01-01-at-10-18-35-am.jpeg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/whatsapp-image-2026-01-01-at-10-13-22-am.jpeg"
+    },
+    {
+     "type": "text",
+     "text": "yarn nomenclatures ☺ first prototype for texture change"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/textile-jukebox/whatsapp-image-2026-01-01-at-10-12-16-am.jpeg"
+    },
+    {
+     "type": "video",
+     "src": "/assets/images/textile-jukebox/first-couple.mp4"
+    }
+   ]
+  },
+  {
+   "slug": "human-knitting",
+   "title": "Performative Agency: Human Knitting",
+   "short_title": "Human Knitting",
+   "number": "02",
+   "section": "research",
+   "theme": "Soft Intelligence: Embodied Mind",
+   "year": 2023,
+   "period": "2023–2024",
+   "type": "Academic",
+   "mode": "Group",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "Systems Engagement",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Sean Ahlquist"
+   ],
+   "collaborators": [
+    "Jutang Gao",
+    "Archit Goyal",
+    "Daniel Merupu",
+    "Lucas Yan",
+    "Yi-Chin Lee (fabrication)"
+   ],
+   "cover": "/assets/images/human-knitting/human-knitting.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[02]-perfomative-agency-human-knitting/",
+    "/projects/02-human-knitting/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "Human Knitting"
+    },
+    {
+     "type": "text",
+     "text": "Human knitting is a hands-on, collaborative method where people use their arms, fingers, or whole bodies to knit, instead of relying on traditional tools or machines. This practice mirrors the mechanics of machine knitting but focuses on physical involvement, encouraging interaction and sensory exploration. It enables participants to work together in creating larger-scale knit structures, enhancing communication and inclusion. As individuals engage in this process, they learn about different stitch techniques, spatial design, and knit patterns, which can later be applied in both technical and digital knitting contexts."
+    },
+    {
+     "type": "heading",
+     "text": "Installation II"
+    },
+    {
+     "type": "text",
+     "text": "This project demonstrates a human-knitting installation designed for the MS studio. The installation is multi-faceted in function as the materiality of the installation is aimed as an acoustic barrier and the spatial design responds to zones of personal isolation, meeting point and a vista frame on the way of the approach."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/dsc-4108.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/dsc-4120-2.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/screenshot-2024-09-29-200805.png"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/GUCw5ZysEmY",
+     "caption": "process video"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/screenshot-2024-09-21-220211.png",
+     "caption": "isometric diagram showing knit placement and dimensions inside the MS studio"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/mesh-copy.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/viewcapture20240215-011746-copy.jpg",
+     "caption": "diagram showing mesh model representative of stitch configuration and bind-off zones"
+    },
+    {
+     "type": "heading",
+     "text": "Installation I"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/dsc-3983.jpg",
+     "caption": "sketches showing human/arm hybrid knitting techniques developed by students in relation to their bodily engagement with the knitting practice"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/dsc-3965.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/dsc-3988.jpg"
+    },
+    {
+     "type": "heading",
+     "text": "Human Parametrics"
+    },
+    {
+     "type": "caption",
+     "text": "diagrams showcasing parameters of human-knitting in relation to the bodily existence of the participating individuals and their configuration in the social circle"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/a-converted-01.jpg",
+     "caption": "top view diagram"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/a-converted-02.jpg",
+     "caption": "side view diagram"
+    },
+    {
+     "type": "heading",
+     "text": "Rules for Making"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/screenshot-2024-09-21-220446.png",
+     "caption": "sketches showing human/arm hybrid knitting techniques developed by students in relation to their bodily engagement with the knitting practice"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/screenshot-2024-09-21-220441.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/human-knitting/screenshot-2024-09-21-220312.png",
+     "caption": "sketch showing material usage calculation in relation to stitch configuration and bi-axial tensioning of the knitted-textile"
+    }
+   ]
+  },
+  {
+   "slug": "cnc-knitting",
+   "title": "Programmable Knitting: CNC Knitting",
+   "short_title": "CNC Knitting",
+   "number": "03",
+   "section": "research",
+   "theme": "Soft Intelligence: Embodied Mind",
+   "year": 2024,
+   "period": "2023–2024 Spring",
+   "type": "Academic",
+   "mode": "Group",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "Systems Engagement",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Sean Ahlquist"
+   ],
+   "collaborators": [
+    "Jutang Gao",
+    "Archit Goyal",
+    "Daniel Merupu",
+    "Lucas Yan",
+    "John Hilla (fabrication)"
+   ],
+   "cover": "/assets/images/cnc-knitting/cnc-knitting.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[03]-programmable-knitting-cnc-knitting/",
+    "/projects/03-cnc-knitting/"
+   ],
+   "summary": "This project showcases an example of an installation of Computer Numerically Controlled (CNC) knitted textiles. It provides a piece of tensile architecture where different scales in knitting programming are explored including **stitch structures [03], discretization of materiality [02], and form-finding [01].** It proposes an example for multi-material knitted-textiles where the tensile stabilities of different material qualities and formal expressions are witnessed in a moment.",
+   "blocks": [
+    {
+     "type": "caption",
+     "text": "Scale [01]: form-finding isometric diagram showing knit placement and dimensions inside the MS studio with the existing human-knitted installation"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/cnc-knitting/iso-diag-1.jpg",
+     "caption": "the cnc knitted textile is embedded inside the skylight of the studio - directing light colorfully, with various transparency zones into the studio"
+    },
+    {
+     "type": "heading",
+     "text": "Scale [02]: discretization  *the knitting composition is composed of three parts:"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/cnc-knitting/screenshot-2025-12-31-at-5-22-21pm.png",
+     "caption": "i - panel - tube - panel (blue transparent piece at the top) ii - single panel with one opening (pink & blue gradient with transparent in between zones) iii - tubular knit with textures (blue and purple)"
+    },
+    {
+     "type": "heading",
+     "text": "Scale [03]: different stitch structures for tactility"
+    },
+    {
+     "type": "heading",
+     "text": "three knitting structures are explored:"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/cnc-knitting/screenshot-2025-12-31-at-5-28-43pm.png"
+      },
+      {
+       "src": "/assets/images/cnc-knitting/screenshot-2025-12-31-at-5-28-48pm.png"
+      },
+      {
+       "src": "/assets/images/cnc-knitting/screenshot-2025-12-31-at-5-28-55pm.png"
+      }
+     ],
+     "caption": "i -* *jersey with different materiality ii -* *“pluck” module with alternating tuck and float structure for dimensionality iii - ‘streching’ module with elastic yarn for dimensionality"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/cnc-knitting/screenshot-2025-12-31-at-5-35-51pm.png",
+     "caption": "Scale [01-02-03]"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/cnc-knitting/img-3992.jpg",
+     "caption": "photos of the final installation"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/cnc-knitting/img-3984.jpg"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/cnc-knitting/img-3934.jpg"
+      },
+      {
+       "src": "/assets/images/cnc-knitting/img-3933.jpg"
+      }
+     ]
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/bFQW1sTdgtc",
+     "caption": "installation process"
+    }
+   ]
+  },
+  {
+   "slug": "speed-of-sound",
+   "title": "Speed of Sound",
+   "number": "04",
+   "section": "research",
+   "theme": "Situated Machines: Measurement Instruments",
+   "year": 2025,
+   "period": "2025–2026 Fall",
+   "type": "Academic",
+   "institution": "Massachusetts Institute of Technology",
+   "institution_short": "MIT",
+   "course": "2.132 MICA Projects",
+   "city": "Cambridge",
+   "country": "US",
+   "cover": "/assets/images/speed-of-sound/whatsapp-image-2026-01-02-at-2-40-23-pm.jpeg",
+   "hidden": false,
+   "redirect_from": [
+    "/[04]-speed-of-sound/",
+    "/projects/04-speed-of-sound/"
+   ],
+   "summary": "Speed of Sound is a measurement experiment that is conducted with a workstation composed of a MEMS Microphone, a speaker, and a Digilent measurement device. The speaker is initiated through the Digilent device to produce a sound output, which is received by the microphone. The experiment aimed to measure the relationship between the delay of the acoustic pulse response (the reception of the microphone) and the distance between the microphone and the speaker.",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "The experiment results have shown that delay increases with the distance between components, leveraging the span traveled through “air” or attenuation as a source of delay."
+    },
+    {
+     "type": "text",
+     "text": "The speed of sound workstation, also known as an “air-delay instrument,” showcased a well-known physical phenomenon, and measuring it with the right tools gave us empirical data. What do we do with this? **How do we understand and use physical phenomena as a design tool? Can physical phenomena shape the way we build and understand physical and digital environments, materials, and spaces?**"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/speed-of-sound/micasos.png"
+      },
+      {
+       "src": "/assets/images/speed-of-sound/9.png"
+      }
+     ],
+     "caption": "speed of sound measurement instrument"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "type": "video",
+       "src": "/assets/images/speed-of-sound/whatsapp-video-2026-01-02-at-2-40-21-pm.mp4"
+      },
+      {
+       "type": "video",
+       "src": "/assets/images/speed-of-sound/whatsapp-video-2026-01-02-at-2-40-36-pm.mp4"
+      }
+     ],
+     "caption": "creating impulse"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2026-01-03-at-6-39-20pm.png",
+     "caption": "acoustic pulse responses at different distances (cm (y) x amplitude (V) to time(x))"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2026-01-03-at-6-39-28pm.png",
+     "caption": "acoustic pulse responses of different distances juxtaposed!"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2026-01-03-at-6-39-56pm.png",
+     "caption": "the juxtaposition shows us attenuation in amplitude and delay in the response time"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2026-01-03-at-6-39-42pm.png",
+     "caption": "let’s look at it differently!"
+    },
+    {
+     "type": "text",
+     "text": "Now? What do we do with this? **How do we understand and use physical phenomena as a design tool? Can physical phenomena shape the way we build and understand physical and digital environments, materials, and spaces?**"
+    },
+    {
+     "type": "text",
+     "text": "This parametric measurement can be understood in the way it initiates a design, in this case, a 2d digital piece. The idea is to start a discussion: can we produce sound impulses to design an artifact?"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/speed-of-sound.jpg",
+     "caption": "design mapping matrix"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2025-10-16-212252-1.png",
+     "caption": "input parameters + data"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2025-10-16-212728-1.png",
+     "caption": "different outputs"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/speed-of-sound/screenshot-2025-10-16-212722-1.png"
+    },
+    {
+     "type": "video",
+     "src": "/assets/images/speed-of-sound/speed-of-sound-visual-interface-2.mp4",
+     "caption": "!live play!"
+    }
+   ]
+  },
+  {
+   "slug": "spring-force-mechanics",
+   "title": "Spring Force Mechanics",
+   "subtitle": "[adapting]",
+   "number": "11",
+   "section": "research",
+   "theme": "Situated Machines: Measurement Instruments",
+   "year": 2025,
+   "period": "2025–2026 Fall",
+   "type": "Academic",
+   "institution": "Massachusetts Institute of Technology",
+   "institution_short": "MIT",
+   "course": "2.132 MICA Projects",
+   "city": "Cambridge",
+   "country": "US",
+   "cover": "/assets/images/spring-force-mechanics/olacak-mi-01.png",
+   "hidden": false,
+   "redirect_from": [
+    "/[11]-spring-force-mechanics/",
+    "/projects/11-spring-force-mechanics/"
+   ],
+   "summary": "This workstation is built to measure the force levels in spring extension. The workstation is composed of inexpensive components that are interchangeable. Main components are the stepper motor, the Tinkercad PCB, and a force sensor that measures the force levels. This workstation was understood in its capabilities.",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "/assets/images/spring-force-mechanics/updated-01-01.png",
+     "caption": "CAD model for spring force mechanics"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/spring-force-mechanics/screenshot-2026-01-04-070313.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/spring-force-mechanics/screenshot-2026-01-03-at-6-09-46pm.png",
+     "caption": "spring force elongation experiment"
+    },
+    {
+     "type": "text",
+     "text": "The first 4 or 5 mm or so is simply due to the initially slack connection between the bottom split ring and the M6 thumbscrew in the bottom clevis connection being taken up. Then we have a high initial slope (i.e., high spring stiffness) as the compressed spring coils become progressively separated. After this, we get an “elbow” like transition to the final lower slope (i.e., lower stiffness) spring response region. This is a common finding for such tightly wound springs."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/spring-force-mechanics/screenshot-2026-01-03-at-6-10-33pm.png",
+     "caption": "zoomed in the initial region"
+    },
+    {
+     "type": "heading",
+     "text": "[REFLECTION TIME]"
+    },
+    {
+     "type": "text",
+     "text": "This workstation made me and my classmates think about our research area in textileswhere we need accurate measurements for material and performance calculations. Below, there is an example swatch of a polyester jersey sample where the axial strain was needed for performance calculations, and we had to do them by hand, resulting in low accuracy."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/spring-force-mechanics/screenshot-2026-01-04-070930.png"
+    },
+    {
+     "type": "text",
+     "text": "This made me and my classmates (Anita & Clara) reflect on the force level measurement workstation, whether it can be used and transformed into its plug-in nature for axial forces of various fibers. We had a chance to test it with a 3 ply polyester yarn."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/spring-force-mechanics/olacak-mi-02.png"
+    }
+   ]
+  },
+  {
+   "slug": "optimization-for-digital-fabrication",
+   "title": "Optimization for Digital Fabrication",
+   "number": "05",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "year": 2023,
+   "period": "2023–2024",
+   "type": "Academic",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "city": "Ann Arbor",
+   "country": "US",
+   "parts": [
+    {
+     "title": "Cavity Slab",
+     "number": "5.i",
+     "period": "2023–2024 Fall",
+     "course": "Independent Study",
+     "instructors": [
+      "Mania Aghei Meibodi"
+     ],
+     "contributors": [
+      "Stuti Bindlish",
+      "Zaid Marji"
+     ]
+    },
+    {
+     "title": "3DGS + Robotics",
+     "number": "5.ii",
+     "period": "2023–2024 Spring",
+     "mode": "Individual",
+     "course": "Robotic Engagement",
+     "instructors": [
+      "Wes McGee"
+     ]
+    },
+    {
+     "title": "Toolpath Optimization + Material-Design Symbiosis",
+     "number": "5.iii",
+     "period": "2023–2024 Fall",
+     "course": "Material Engagement",
+     "instructors": [
+      "Mania Aghei Meibodi"
+     ]
+    }
+   ],
+   "cover": "/assets/images/optimization-for-digital-fabrication/cavityslkab.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[05]-optimization-for-digital-fabrication/",
+    "/projects/05-optimization-for-digital-fabrication/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "[5.i] Cavity Slab"
+    },
+    {
+     "type": "text",
+     "text": "The CAVITY SLAB project explores the use of ultra-thin formwork, produced via additive manufacturing, for the sequential casting of compression-only structures. This innovative approach leverages the precision and flexibility of digital fabrication techniques to create complex geometries that are both structurally optimized and material-efficient. By utilizing resin 3D printing, the formwork allows for the production of lightweight and intricate components, minimizing material waste and aiming to reduce the carbon footprint of concrete slab structures."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/cavityslkab.jpg",
+     "caption": "photographs of the assembled structure"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-32-42pm.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-32-25pm.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-32-49pm.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-31-54pm.png",
+     "caption": "axonometric diagram of the design for two scales"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-32-09pm.png",
+     "caption": "printed parts, assembly process and casting of the 1/3 demonstrator"
+    },
+    {
+     "type": "heading",
+     "text": "[5.ii] 3DGS + ROBOTICS:"
+    },
+    {
+     "type": "text",
+     "text": "In-place joinery application within 3DP tensile support system and system assembly"
+    },
+    {
+     "type": "text",
+     "text": "Concept/Idea\nThe project proposes an asssembly of a tensile structure with 3DGS and introduction of a robotically printed support system with in-print joinery for tension-only structures. The novelties of the project is twofold: Tension structure with 3DGS & support system with robotic 3DP (1) and joint introduction while printing (2)."
+    },
+    {
+     "type": "text",
+     "text": "Why robotic printing?"
+    },
+    {
+     "type": "text",
+     "text": "- large scale\n- securing the joint within layers while printing\n- carbon fiber materiality in compression forces\n- flexibility of printing the neglecting force in the force direction given in the equilibrium"
+    },
+    {
+     "type": "text",
+     "text": "Method\nPellet extruder end effector on KUKA KR120"
+    },
+    {
+     "type": "text",
+     "text": "Material\nPETG + Carbon fiber mix"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/kapak.jpg",
+     "caption": "final assembly photograph"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-44-51pm.png",
+     "caption": "form-finding and corresponding making decisions"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-41-45pm.png",
+     "caption": "printed assembly and details"
+    },
+    {
+     "type": "heading",
+     "text": "[5.iii] Toolpath Optimization + Material-Design Symbiosis:"
+    },
+    {
+     "type": "text",
+     "text": "Verdant Urban explores the integration of verdant/green elements, specifically moss, into interior\ncolumns using additive manufacturing methods. The goal is to enhance building tectonics by\nintroducing organic textures and ecological benefits into architectural spaces. Moss, which\nthrives in shaded, moist environments, can grow on various substrates, including concrete and\nbare soil, making it an adaptable material for such applications. The project aims to make use of\nalgorithmic design in understanding of moss' growth needs and accentuates these by providing\nmore surface area and diverse shading conditions. Materiality of the project explores how clay\nas an additive manufacturing material is compatible with moss for moisture and vegetation\nneeds of the plant species. Furthermore, the project focuses on the sustainable aspects of\nmoss, including its role in water filtration, soil formation, and providing habitat for microfauna,\nwhile leveraging advanced fabrication methods to optimize fabrication in relation to the material and making constraints."
+    },
+    {
+     "type": "embed",
+     "url": "https://vimeo.com/1007911413?share=copy#t=0",
+     "caption": "project video"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/img-0030-copy.jpg",
+     "caption": "final assembly"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-57-44pm.png",
+     "caption": "moss x clay symbiosis and design idea"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-58-35pm.png",
+     "caption": "design decisions with surface maximization and intended design features for light"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-58-56pm.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/optimization-for-digital-fabrication/screenshot-2026-01-01-at-6-51-51pm.png",
+     "caption": "toolpathing and material constraints"
+    },
+    {
+     "type": "text",
+     "text": "+discretization of toolpath in relation to the material limit: *wet clay weight and vertical* *collapsing* (vertical stacking limit: 18 inches)"
+    }
+   ]
+  },
+  {
+   "slug": "machines-of-making",
+   "title": "Machines of Making",
+   "number": "07",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "year": 2023,
+   "period": "2023–2024 Fall",
+   "type": "Academic",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Practicum",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Catie Newell",
+    "Mark Meier"
+   ],
+   "cover": "/assets/images/machines-of-making/whatsapp-image-2026-01-02-at-00-14-07.jpeg",
+   "hidden": false,
+   "redirect_from": [
+    "/[07]-machines-of-making/",
+    "/machines-of-making/",
+    "/projects/07-machines-of-making/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "caption",
+     "text": "machines of making section showcases a group of digital fabrication projects that explore fabrication and making by leveraging the ways making machine works. hover to see each machine"
+    }
+   ]
+  },
+  {
+   "slug": "perception",
+   "title": "Perception",
+   "number": "08",
+   "section": "research",
+   "theme": "Machine",
+   "year": null,
+   "type": "",
+   "cover": "/assets/images/perception/ca2.png",
+   "hidden": false,
+   "redirect_from": [
+    "/[08]-perception/",
+    "/projects/08-perception/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "[08.i] Counteralgorithms II"
+    },
+    {
+     "type": "text",
+     "text": "The project investigates the historic Ulus quarter in Ankara as a layered urban settlement shaped by multiple communities, architectural genotypes, and lived stories that remain under-documented. It argues that understanding the area’s spatial, architectural, and historical value requires integrating both tangible data (geometry, materials, coordinates) and intangible data (stories, human perspective, memory)."
+    },
+    {
+     "type": "text",
+     "text": "The study explores how computer vision interprets this environment, emphasizing that while it excels at extracting tangible information—especially through LiDAR, photogrammetry, point clouds, and RGB data—it struggles to capture intangible qualities related to genius loci. Rather than privileging one over the other, the project frames their coexistence and tension as productive."
+    },
+    {
+     "type": "embed",
+     "url": "https://vimeo.com/898675902"
+    },
+    {
+     "type": "text",
+     "text": "The methodology unfolds in four stages:"
+    },
+    {
+     "type": "text",
+     "text": "1. Photography-based data collection, foregrounding human gaze and subjective experience as intangible input.\n1. LiDAR scanning of selected streets and a key neighborhood house to extract tangible spatial and material data.\n1. Computer vision processing of photographic and video data to analyze intangible visual patterns.\n1. Annotation of LiDAR datasets, where personal and communal stories are manually embedded into tangible spatial data using object detection."
+    },
+    {
+     "type": "text",
+     "text": "By inversely applying computer vision to intangible and tangible datasets within a shared 3D modeling environment, the project questions what computer vision can and cannot perceive, and how spatial meaning emerges from this divide. It situates this inquiry alongside methodologies used by Forensic Architecture—particularly photogrammetry and 3D modeling—aiming to juxtapose multiple modes of spatial narration within a single cinematic 3D space."
+    }
+   ]
+  },
+  {
+   "slug": "capturing",
+   "title": "Capturing",
+   "subtitle": "camera machine / film work",
+   "number": "09",
+   "section": "research",
+   "theme": "Machine",
+   "year": null,
+   "type": "",
+   "cover": "/assets/images/capturing/screenshot-782.png",
+   "hidden": false,
+   "redirect_from": [
+    "/[09]-capturing/",
+    "/projects/09-capturing/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "camera machine / film work"
+    },
+    {
+     "type": "heading",
+     "text": "[09.i] Sequences;"
+    },
+    {
+     "type": "heading",
+     "text": "[09.ii] Space through movement x LIDAR"
+    },
+    {
+     "type": "embed",
+     "url": "https://vimeo.com/1009834293?share=copy"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/capturing/ilkyazsarimehmetoglu-portfolio-page-41.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "learning",
+   "title": "Learning",
+   "number": "10",
+   "section": "research",
+   "theme": "Machine",
+   "year": 2023,
+   "period": "2022–2023 Spring",
+   "type": "Academic",
+   "mode": "Individual",
+   "institution": "METU",
+   "program": "Architecture",
+   "course": "BS723 Machine Learning Applications in Architecture",
+   "city": "Ankara",
+   "country": "TR",
+   "instructors": [
+    "Prof. Dr. Arzu Gönenç Sorguç (studio coordinator)",
+    "Müge Krusa Yemiscioglu",
+    "Ozan Yetkin",
+    "Sevval Cologlu"
+   ],
+   "cover": "/assets/images/learning/200.png",
+   "hidden": false,
+   "redirect_from": [
+    "/[10]-learning/",
+    "/projects/10-learning/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "[10.i] Unrehearsed Compositions"
+    },
+    {
+     "type": "text",
+     "text": "The project aims to generate a machine learning model that generates audio with predicted audio features of pose data in dance sequences"
+    },
+    {
+     "type": "text",
+     "text": "**problem -** Dance and music are two simultaneous entities that the body fits into when moving. The beat, genre, speed, volume, and many more features of audio affect how a dance choreography is shaped and executed. This is a phenomenon that is affected by many parameters including the genre of the dance, the expressional quality of the dancer themselves, and so on. In that sense, with this project, the relationship between audio and dance is understood through audio’s power to generate how a dance is shaped and it is reversed to investigate how dance itself can generate audio and music. Shortly, the\nproblem focuses on how movement in relation to dancing generates sound."
+    },
+    {
+     "type": "text",
+     "text": "**material -** dance video sequences with audio files/feautures"
+    },
+    {
+     "type": "text",
+     "text": "**model -** a model that predicts the audio features of pose data in a dance/movement sequence"
+    },
+    {
+     "type": "embed",
+     "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1925580818&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    },
+    {
+     "type": "embed",
+     "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1925580815&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    },
+    {
+     "type": "embed",
+     "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1925580806&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    },
+    {
+     "type": "embed",
+     "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1925580800&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/ilkyazsarimehmetoglu-bs723-finalpresentation-4.jpg"
+    },
+    {
+     "type": "text",
+     "text": "The machine learning model was aimed as a model that predicts the audio features of pose data in a dance/movement sequence. In that sense, the model sequentially follows these steps as can be seen in the flow chart and model diagram."
+    },
+    {
+     "type": "text",
+     "text": "Generation with prediction – Another goal for the project was to generate a real-time model to interact with to generate sound while dancing in a camera target or Kinect. This was a further goal of the project which was not adapted to the existing data but rather a simulation to be adapted to a real-time model of pose estimation."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/screenshot-2024-09-16-084834.png"
+    },
+    {
+     "type": "caption",
+     "text": "1. Problem Definition"
+    },
+    {
+     "type": "text",
+     "text": "The problem of this project was to look further into audio generation through dance. Dance and music are two simultaneous entities that the body fits into when moving. The beat, genre, speed, volume, and many more features of audio affect how a dance choreography is shaped and executed. This is a phenomenon that is affected by many parameters including the genre of the dance, the expressional quality of the dancer themselves, and so on. In that sense, with this project, the relationship between audio and dance is understood through audio’s power to generate how a dance is shaped and it is reversed to investigate how dance itself can generate audio and music. Shortly, the problem focuses on how movement in relation to dancing generates sound."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/screenshot-2024-09-16-084841.png"
+    },
+    {
+     "type": "caption",
+     "text": "2. Data & Interpretation"
+    },
+    {
+     "type": "text",
+     "text": "For this project, chosen materials are dance video sequences that contain both instances of the moving body of a single person – executing a double choreography of the Break Dance genre and its related audio file. The video sequence is deconstructed as image sequences – by second and the audio file – is extracted into its features by second."
+    },
+    {
+     "type": "text",
+     "text": "2.1. Image Data - The image sequences were used for Pose Estimation to understand the coordinates of the moving body in relation to the sound data at that particular second. In that sense, for a 128-second dance performance, 128 instances of that sequence were extracted and implemented. The image sequence portion of the video was understood through the specific location of the parts of the dancer’s moving body – both “hinges” of the body such as the knee, elbow, and so on, and other features like the organs on the face and their left, right, upper, bottom corners. Orientation of the body parts, their transitions, and the orientation of facial expressions were taken into consideration with the definition of the locations in a particular sequential second."
+    },
+    {
+     "type": "text",
+     "text": "2.2. Audio Data – The audio data was gathered in the wav format to be broken down into its volume, spectrogram, and melodic spectrogram features. For the prediction, for this part of the project, melodic spectrogram values were predicted and later on, implemented as audio. In this part, the melodic spectrogram value extraction had specifications as (sample rate=22520, window=520) which are default values that are derived from the nature of the implemented wav file. The raw audio files went into the preparation of such kind – to work on the spectrogram values in further stages."
+    },
+    {
+     "type": "text",
+     "text": "2.3. Compatibility - The compatibility of the two data images and sound was understood through their ‘time’ feature. The audio data implemented time/frequency as an output where the image data was constructed through time. In the end, it was important that both of the lists shared the same list length."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/ilkyazsarimehmetoglu-bs723-finalpresentation-5.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/audio-1.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/spectogram-for-audio-1.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/learning/mel-spectogram.png"
+    }
+   ]
+  },
+  {
+   "slug": "retro-fitting",
+   "title": "Retro-fitting (ML)",
+   "subtitle": "Machine Learning Applications of Leftover Materials in Digital Fabrication",
+   "number": "12",
+   "section": "research",
+   "theme": "Leftover Project",
+   "year": 2019,
+   "period": "2019–present",
+   "type": "Personal",
+   "status": "work in progress",
+   "cover": "/assets/images/retro-fitting/whatsapp-image-2024-01-21-at-01-38-20-fbe11794-copy.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[12]-retro-fitting/",
+    "/projects/12-retro-fitting/"
+   ],
+   "summary": "Leftover Project, is a personal construct created by Ilkyaz Sarimehmetoglu to investigate material waste as a potential source for retro-fitting. It tries to understand different clusters of materials such as additive manufacturing supports or scaffholdings, subtractive manufacturing leftovers, unused fibrous deconstructions and categorize them for possible repurposing and retrofitting. Sometimes the leftovers are realized as editorials with visual computing, sometimes as geometric boundaries for volume fits and sometimes representative samples of material properties. All features in relation, the project tries to recycle and repurpose according to new functionalities.",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Machine learning processes help distinguish samples from one another through image recognitions, sorting and pairing with scenarios to be matched."
+    }
+   ]
+  },
+  {
+   "slug": "the-alphabet-song",
+   "title": "The Alphabet Song",
+   "number": "13",
+   "section": "research",
+   "theme": "Leftover Project",
+   "year": 2023,
+   "period": "2023",
+   "type": "Personal",
+   "cover": "/assets/images/the-alphabet-song/alphabet-song-booklet9-2.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[13]-the-alphabet-song/",
+    "/projects/13-the-alphabet-song/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "heading",
+     "text": "Concept / Idea"
+    },
+    {
+     "type": "text",
+     "text": "This personal editorial construction explores ways of documenting the ‘automatism’ within what can be referred as a destructive process. The remaining constructed pieces of a 3D-printed model are utilized within the way that they are teared apart from the actual model to decode the ways in which their fibers have formulated each piece. The editorial materials consist of resulsts of 3 main processes of actions: 3D-printing, disassemblying of the supports out of fibers and their juxtaposition within diverse mediums with other agents. There are mainly three type of formulations out of the first process (3D-printing) which are formed for supporting purposes throughout the action. The end-product of the fibers formulate 4 different characters - the base, the side solids, fibers in between the side solids which lift up the upper model and the solid but more wholistic parts. Within the second process, all of these loose fibers are taken apart from the model to surpass the digital model and physical model unity. At the end, according to their automatic occurences during the act of disassembly, remaining pieces of left out support pieces are grouped and identified according to their conditions."
+    },
+    {
+     "type": "text",
+     "text": "The aim of this editorial is to formulate a synthehic landscape where random, aimless and accidental formulations of the same fibrous organization create unique parts. The significance of this editorial is issued through the process, not the outcome, is sustained through the involuntyary formulations which resemble the existence of many physical presences around us that define typologies nontheless."
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/the-alphabet-song/alphabet-song-booklet2.jpg"
+      },
+      {
+       "src": "/assets/images/the-alphabet-song/alphabet-song-booklet3.jpg"
+      },
+      {
+       "src": "/assets/images/the-alphabet-song/alphabet-song-booklet4.jpg"
+      }
+     ]
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/K_w_Bf4nEps"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/the-alphabet-song/alphabet-song-booklet9.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/the-alphabet-song/alphabet-song-booklet8.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/the-alphabet-song/alphabet-song-booklet5.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/the-alphabet-song/alphabet-song-booklet6.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "plotted-leftovers",
+   "title": "Plotted Leftovers",
+   "number": "14",
+   "section": "research",
+   "theme": "Leftover Project",
+   "year": 2024,
+   "period": "2024",
+   "type": "Personal",
+   "cover": "/assets/images/plotted-leftovers/plottedleftovers.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/[14]-plotted-leftovers/",
+    "/projects/14-plotted-leftovers/"
+   ],
+   "summary": "plotted leftovers understands sketches as a leftover moment of project stages and aims to re-produce once-hand drawn sketches as residues of digital manipulation. it understands the power of sketching within a project as a catalyzer and an indicator for rebuilding and rethinking conceptual negative spaces of a project (in this case ZAP)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Concept/idea"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/plotted-leftovers/plottedleftovers-image-1.jpg"
+    },
+    {
+     "type": "text",
+     "text": "Process / Fabrication"
+    },
+    {
+     "type": "text",
+     "text": "a leftover, not utilized or conceptualized/realized, sketch was first digitalized by scanning and tracing, then it was plotted to produce different regions of overlapping ink"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/aSIvDCXanmQ"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/kDVRDGumZKs"
+    }
+   ]
+  },
+  {
+   "slug": "precise-fit",
+   "title": "Precise Fit",
+   "short_title": "3-axis CNC",
+   "number": "07.1",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "parent": "machines-of-making",
+   "year": 2023,
+   "period": "2023–2024 Fall",
+   "type": "Academic",
+   "mode": "Group",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Practicum",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Catie Newell",
+    "Mark Meier"
+   ],
+   "collaborators": [
+    "Lucas Yan"
+   ],
+   "machine": "3-axis CNC router",
+   "cover": "/assets/images/precise-fit/screenshot-2026-01-01-135926.png",
+   "hidden": false,
+   "redirect_from": [
+    "/3-axis-cnc/",
+    "/projects/precise-fit-3-axis-cnc/"
+   ],
+   "summary": "In this project, a reconfigurable facade component is designed to adapt to changing seasons and weather systems. Using a 3-axis CNC router, multi-purpose parts are created from hardwood board stock, capable of being assembled in various configurations. The components are part of a larger system that responds to environmental elements such as precipitation, wind, light, and extreme temperatures. The goal is to develop a flexible system that can block, engage, or open to these elements, enhancing the performance and atmosphere of the space. Each component is designed to be assembled in three distinct ways, offering versatility and adaptability in architectural applications.",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/foto-1.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit9.jpg",
+     "caption": "single unit & 3 different joints"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-15.jpg",
+     "caption": "multiple units & flexible connections"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit7.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-03.jpg",
+     "caption": "diagram showcasing unit surface class relationships"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-04.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-08.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-10.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-12.jpg",
+     "caption": "fabrication process - cnc flip cut"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-13.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-14.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/precisefit-page-16.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/precise-fit/screenshot-2024-03-18-131944.png"
+    }
+   ]
+  },
+  {
+   "slug": "light-leak",
+   "title": "Light Leak",
+   "short_title": "Zund knife cutter",
+   "number": "07.2",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "parent": "machines-of-making",
+   "year": 2023,
+   "period": "2023–2024 Fall",
+   "type": "Academic",
+   "mode": "Individual",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Practicum",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Catie Newell",
+    "Mark Meier"
+   ],
+   "machine": "Zund CNC knife cutter",
+   "cover": "/assets/images/light-leak/screenshot-2026-01-01-140548.png",
+   "hidden": false,
+   "redirect_from": [
+    "/zund-knife-cutter-1/",
+    "/projects/light-leak-zund-knife-cutter/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "/assets/images/light-leak/lightleak2.jpg"
+    },
+    {
+     "type": "text",
+     "text": "Light, in combination with materials and coding, can greatly affect and communicate with a space through its qualities and behaviors. Light Leak is a light-based device that senses its surrounding space and contributes to it as a body-instrument. Light Leak is an aggregation of components used to direct or bounce light from the microcontroller/light source, which is an Adafruit Circuit Playground Express (CPX). With the Zund, a CNC knife cutter, as the primary machine, thin PETG components that are bent encase the light source and body, the arm."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/light-leak/img-8603.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/light-leak/img-8605.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/light-leak/lightleak5.jpg"
+    },
+    {
+     "type": "text",
+     "text": "The wearable object surrounds the arm and holds two components of the CPX: the playground itself and an additional proximity sensor. This light source, through coded interactions, serves to understand the movement of the hand with the tilting sensors. The proximity sensor is used to transform the proximity of the other arm into 8-bit sounds. With that, the unfolding of bodily interactions are transformed into sound and light for the user to engage better."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/light-leak/lightleak6.jpg"
+    },
+    {
+     "type": "text",
+     "text": "The project takes movement and interprets it as two different sensings: to see and hear. To do that, it adapts a parametric design approach of a surface that covers the bodily movement and an aggregation fabrication method to build the arm piece and configure it to bend on the nodes of the body."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/light-leak/lightleak7.jpg"
+    },
+    {
+     "type": "embed",
+     "url": "https://youtu.be/UjNaJ-B48Vs",
+     "caption": "performance by self"
+    },
+    {
+     "type": "text",
+     "text": "//"
+    }
+   ]
+  },
+  {
+   "slug": "wall-with-a-hole",
+   "title": "Omnifab: Wall with a Hole",
+   "short_title": "Robotic 3D printing",
+   "number": "07.3",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "parent": "machines-of-making",
+   "year": 2023,
+   "period": "2023–2024 Fall",
+   "type": "Academic",
+   "mode": "Individual",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Practicum",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Catie Newell",
+    "Mark Meier"
+   ],
+   "machine": "KUKA KR60 robotic clay printing",
+   "cover": "/assets/images/wall-with-a-hole/2.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/robotic-3dp/",
+    "/projects/two-does-not-equal-to-one-waterjet/"
+   ],
+   "summary": "",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "olla wall design with 3D Robotic Clay Printing using KUKAPRC KR60"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/wall-with-a-hole/by-layer-ilkyaz-sarimehmetoglu-page-01-copy.jpg"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/wall-with-a-hole/by-layer-ilkyaz-sarimehmetoglu-page-12-copy.jpg"
+      },
+      {
+       "src": "/assets/images/wall-with-a-hole/by-layer-ilkyaz-sarimehmetoglu-page-11-copy.jpg"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/wall-with-a-hole/hhh.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/wall-with-a-hole/screenshot-2024-09-28-234829.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/wall-with-a-hole/a.png"
+    },
+    {
+     "type": "text",
+     "text": "\\//"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/wall-with-a-hole/screenshot-2024-09-28-235729.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/wall-with-a-hole/b.png"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/wall-with-a-hole/2.jpg"
+      },
+      {
+       "src": "/assets/images/wall-with-a-hole/1.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "two-does-not-equal-to-one",
+   "title": "Omnifab: Two Does Not Equal to One",
+   "short_title": "Waterjet",
+   "number": "07.4",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "parent": "machines-of-making",
+   "year": 2023,
+   "period": "2023–2024 Fall",
+   "type": "Academic",
+   "mode": "Individual",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Practicum",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Catie Newell",
+    "Mark Meier"
+   ],
+   "machine": "Waterjet",
+   "cover": "/assets/images/two-does-not-equal-to-one/screenshot-2026-01-01-140639.png",
+   "hidden": false,
+   "redirect_from": [
+    "/waterjet/",
+    "/projects/wall-with-a-hole-robotic-3dp/"
+   ],
+   "summary": "This project appears as the sequential piece of Light Leak where the interaction with bodily movement , light and sound are reconfigured in a way where the movement of the hand transformed into the movement of the light with the material change. Two CPX’s respond to the change of color in the light converting it into the sound. With the projection of color animation on the sound object - a grid of double-curved surfaces that reflect some of the light and emit some of it, color of the light as a sense is intepreted through 8-bit sounds. Again, the machine aims to transform the sense of color and light into sound.",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "The waterjet is used in the project to cut discrete 2D thin gauge metal parts that will be folded, tabbed, and bended into a series of different cones. The material switch changes the game. The learning here comes in understanding the design alteration necessary to switch from PETG to metal. The fact that changing the tool, the material, and the opacity, greatly affects the result of the object as it derives the transformation of senses from Light Leak. Incidentally, light behaviors shift from a glow and diffusion, to shards, shadows, and leaks."
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/dmt-arch700-final-review.jpg"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/two-does-not-equal-to-one/img-8909.jpg"
+      },
+      {
+       "src": "/assets/images/two-does-not-equal-to-one/img-8908.jpg"
+      }
+     ]
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/two-does-not-equal-to-one/img-8900-1.jpg"
+      },
+      {
+       "src": "/assets/images/two-does-not-equal-to-one/img-8900.jpg"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/material-change6.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/material-change9.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/material-change10.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/material-change12.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/material-change13.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/two-does-not-equal-to-one/material-change14.jpg"
+    }
+   ]
+  },
+  {
+   "slug": "morphbox",
+   "title": "Omnifab: Morphbox",
+   "short_title": "Hands",
+   "number": "07.5",
+   "section": "research",
+   "theme": "Digital to Physical: Advanced Fabrication",
+   "parent": "machines-of-making",
+   "year": 2023,
+   "period": "2023–2024 Fall",
+   "type": "Academic",
+   "mode": "Individual",
+   "institution": "University of Michigan",
+   "program": "MS Digital and Material Technologies",
+   "course": "MS Practicum",
+   "city": "Ann Arbor",
+   "country": "US",
+   "instructors": [
+    "Catie Newell",
+    "Mark Meier"
+   ],
+   "machine": "Hands",
+   "cover": "/assets/images/morphbox/pattern-making.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/hands/",
+    "/projects/morphbox-hands/"
+   ],
+   "summary": "Morphbox explores a project of performance where fabrication of an adaptable mold generates diverse units. The mold is a suspended textile formwork for casting plaster.",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "/assets/images/morphbox/cover-2.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/morphbox/knit2.jpg"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/morphbox/morphbox1.png"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/morphbox/dsc-2830-copy.jpg"
+      },
+      {
+       "src": "/assets/images/morphbox/pattern-making.jpg"
+      },
+      {
+       "src": "/assets/images/morphbox/dsc-2832-copy.jpg"
+      }
+     ]
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/morphbox/morphbox3.png"
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/morphbox/texture.jpg"
+      },
+      {
+       "src": "/assets/images/morphbox/uinit-3.jpg"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "exhibitions": [
+  {
+   "slug": "zap",
+   "title": "ZAP!",
+   "subtitle": "Bio-Inspired Large-Scale Multimedia Installation",
+   "number": "",
+   "section": "exhibition",
+   "year": 2024,
+   "period": "2024–2025 Fall",
+   "type": "Exhibition",
+   "role": "Artist",
+   "institution": "FEAST: Faculty Engineering/Arts Student Teams, University of Michigan ArtsEngine",
+   "venue": "University of Michigan Duderstadt Gallery + Video Studio",
+   "city": "Ann Arbor",
+   "country": "US",
+   "credits": [
+    {
+     "group": "Artists & Lab",
+     "names": [
+      "SMART (Sound and Media Art) Lab",
+      "Director: Dr. Zeynep Özcan"
+     ]
+    },
+    {
+     "group": "SMART Lab Student Members",
+     "names": [
+      "İlkyaz Sarımehmetoğlu (Architecture, MS)",
+      "Shoma Sawa (Computer Science, MA)",
+      "Sabrina Sugg (Environment, BS & MS)",
+      "Brooke Steele (Fine Arts, BA)",
+      "Natalia Quintanilla Cabrera (Performing Arts Technology, MA)"
+     ]
+    },
+    {
+     "group": "Thank you",
+     "names": [
+      "Zeke Bolukh",
+      "Eva Choi",
+      "Carly Lowe",
+      "Paul Luckhoff",
+      "Emma Reich",
+      "Lucas Yan",
+      "Ginny Jiang"
+     ]
+    }
+   ],
+   "links": [
+    {
+     "label": "SMART Lab website",
+     "url": "https://smartlab.cargo.site"
+    }
+   ],
+   "cover": "/assets/images/zap/screenshot-2024-12-09-135941-copy.png",
+   "hidden": false,
+   "redirect_from": [
+    "/zap!/",
+    "/projects/zap/"
+   ],
+   "summary": "ZAP! is an interactive biomimetic installation that reimagines how electric eels (Electrophorus electricus) live, hunt, and communicate by creating electromagnetic fields (EMF) around their bodies, serving as an extended sense of touch. This work conceptualizes the physical, auditory, and communicative aspects of electrocommunication and brings them to life in an interactive large-scale multimedia installation. The installation showcases a real-time simulation of the eel’s behavior within varying environmental conditions of the Amazonian habitat. It composes this immersive environment through three spatial layers: the architectural sculpture, the live-generated sound engine, and spectator interactions that interfere with the autonomous artificial environment.",
+   "blocks": [
+    {
+     "type": "embed",
+     "url": "https://vimeo.com/1034640272"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/zap/3currents-copy.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/zap/currents2.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/zap/ecport.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/zap/export1.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/zap/exportw.png"
+    },
+    {
+     "type": "image",
+     "src": "/assets/images/zap/screenshot-2024-12-09-140138.png"
+    }
+   ]
+  },
+  {
+   "slug": "architecture-is-art",
+   "title": "Architecture is Art",
+   "number": "",
+   "section": "exhibition",
+   "year": 2023,
+   "period": "2022–2023 Spring",
+   "type": "Exhibition",
+   "role": "Exhibition assistant; exhibition design team participant; exhibition catalog designer",
+   "institution": "METU",
+   "program": "Architecture",
+   "course": "ARCH524 Architecture and Different Modes of Representation",
+   "venue": "CerModern",
+   "city": "Ankara",
+   "country": "TR",
+   "instructors": [
+    "Prof. Dr. Aysen Savas (seminar instructor)"
+   ],
+   "cover": "/assets/images/architecture-is-art/dscf9928.jpg",
+   "hidden": false,
+   "redirect_from": [
+    "/architecture-is-art/",
+    "/projects/architecture-is-art/"
+   ],
+   "summary": "Architecture is Art is an exhibition branch under the Getty Institiute ‘Keeping it Modern’ project, METU branch.",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "to view exhibition catalogue click ***[here](https://www.yumpu.com/en/document/read/68646308/arch524-exhibitioncatalog-spring2023)**.*\nto view the Getty ‘Keeping it Modern’ Project, click [here](http://kimproject.arch.metu.edu.tr/) for the local page and click ***[her](https://www.getty.edu/projects/keeping-it-modern/)e*** for the global page."
+    },
+    {
+     "type": "gallery",
+     "items": [
+      {
+       "src": "/assets/images/architecture-is-art/dscf9928-copy.jpg"
+      },
+      {
+       "src": "/assets/images/architecture-is-art/dscf0168-copy.jpg"
+      },
+      {
+       "src": "/assets/images/architecture-is-art/dscf0194-copy.jpg"
+      },
+      {
+       "src": "/assets/images/architecture-is-art/dscf9948-copy.jpg"
+      },
+      {
+       "src": "/assets/images/architecture-is-art/dscf0029-copy.jpg"
+      },
+      {
+       "src": "/assets/images/architecture-is-art/dscf9769-copy.jpg"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "awards": [
+  {
+   "title": "MIT Architecture Department Fellow",
+   "granted_by": "MIT Department of Architecture",
+   "country": "US",
+   "type": "Fellowship",
+   "year": 2025,
+   "period": "2025",
+   "note": "Awarded fellowship by the MIT Department of Architecture",
+   "related": ""
+  },
+  {
+   "title": "Fulbright Scholarship, Master’s Grantee",
+   "granted_by": "US Department of State, Fulbright Türkiye",
+   "country": "US",
+   "type": "Scholarship",
+   "year": 2023,
+   "period": "2023–2024",
+   "note": "US Department of State Scholarship, Fulbright Türkiye",
+   "related": ""
+  },
+  {
+   "title": "Master of Science Research Fellow",
+   "granted_by": "University of Michigan Taubman College of Architecture",
+   "country": "US",
+   "type": "Fellowship",
+   "year": 2023,
+   "period": "2023",
+   "note": "",
+   "related": ""
+  },
+  {
+   "title": "Rackham Graduate Student Research Grant",
+   "granted_by": "University of Michigan, Rackham Graduate School",
+   "country": "US",
+   "type": "Grant",
+   "year": 2024,
+   "period": "2024",
+   "note": "",
+   "related": "textile-jukebox"
+  },
+  {
+   "title": "ArtsEngine Student Research Grant",
+   "granted_by": "University of Michigan, ArtsEngine",
+   "country": "US",
+   "type": "Grant",
+   "year": 2024,
+   "period": "2024",
+   "note": "",
+   "related": "textile-jukebox"
+  },
+  {
+   "title": "ACADIA Student Scholarship",
+   "granted_by": "ACADIA",
+   "country": "",
+   "type": "Scholarship",
+   "year": 2023,
+   "period": "2023",
+   "note": "",
+   "related": ""
+  },
+  {
+   "title": "Ulus 100th Year Bazaar — Winning Competition Entry",
+   "granted_by": "",
+   "country": "TR",
+   "type": "Competition",
+   "year": 2022,
+   "period": "2022",
+   "note": "Project in architecture",
+   "related": ""
+  }
+ ],
+ "teaching": [
+  {
+   "title": "Cultures of Form",
+   "role": "Assistant Instructor",
+   "institution": "",
+   "country": "",
+   "type": "Course",
+   "year": 2025,
+   "period": "2025",
+   "related": ""
+  },
+  {
+   "title": "Project Leftovers Workshop",
+   "role": "Instructor",
+   "institution": "",
+   "country": "",
+   "type": "Workshop",
+   "year": 2023,
+   "period": "2023",
+   "related": ""
+  }
+ ],
+ "publications": [
+  {
+   "authors": "Sarimehmetoglu, I., Qiu, J., Thaprawat, P., Zhou, G., Valikodath, N., Draelos, M., & Alves-Oliveira, P.",
+   "year": 2025,
+   "period": "2025, July",
+   "title": "Robot characters for innovative medical eye exams in kids",
+   "venue": "Proceedings of the Designing Interactive Systems Conference (DIS ’25)",
+   "publisher": "ACM",
+   "pages": "",
+   "type": "Conference paper",
+   "url": "https://doi.org/10.1145/3715336.3735445",
+   "related": ""
+  },
+  {
+   "authors": "Sarimehmetoglu, I., & Özcan, Z.",
+   "year": 2025,
+   "period": "2025",
+   "title": "ZAP!: Bio-Inspired Large-Scale Multimedia Installation",
+   "venue": "Proceedings of the International Computer Music Conference (ICMC 2025)",
+   "publisher": "International Computer Music Association",
+   "pages": "90–95",
+   "type": "Conference paper",
+   "url": "",
+   "related": "zap"
+  },
+  {
+   "authors": "Schiesser, A., Şimşek, D., Sarımehmetoğlu, İ., & Esendemir, G.",
+   "year": 2018,
+   "period": "2018",
+   "title": "Evaluation of antimicrobial activity of methylglyoxal – The major antibacterial component of Manuka honey",
+   "venue": "Mellifera",
+   "publisher": "",
+   "pages": "18, 1–6",
+   "type": "Journal article",
+   "url": "https://dergipark.org.tr/tr/pub/mellifera/issue/41786/504450",
+   "related": ""
+  }
+ ]
+}

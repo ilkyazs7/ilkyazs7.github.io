@@ -1,0 +1,35 @@
+---
+layout: default
+title: Teaching
+tab: Teaching
+permalink: /teaching/
+---
+{%- assign rows = site.data.teaching | sort: "year" | reverse -%}
+<main class="archive archive--wide">
+  <div class="archive-table">
+    <table data-sortable>
+      <colgroup><col class="c-title"><col class="c-inst"><col class="c-country"><col class="c-type"><col class="c-year"></colgroup>
+      <thead>
+        <tr>
+          <th data-sort="title">Title</th>
+          <th data-sort="inst">Institution</th>
+          <th data-sort="country">Country</th>
+          <th data-sort="role">Role</th>
+          <th data-sort="year" data-num class="num">Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for t in rows %}
+        {%- assign rel = site.projects | where: "slug", t.related | first -%}
+        <tr data-title="{{ t.title | escape }}" data-inst="{{ t.institution | escape }}" data-country="{{ t.country }}" data-role="{{ t.role }}" data-year="{{ t.year }}"{% if rel %} data-href="{{ rel.url | relative_url }}"{% endif %}>
+          <td class="t-title">{% if rel %}<a href="{{ rel.url | relative_url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</td>
+          <td>{{ t.institution }}</td>
+          <td>{{ t.country }}</td>
+          <td>{{ t.role }}</td>
+          <td class="num">{{ t.year }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+</main>
