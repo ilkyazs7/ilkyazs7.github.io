@@ -97,16 +97,14 @@ th[data-sort]:hover, th.is-sorted { color: var(--accent); }
 th.is-sorted::after { content: " ↓"; }
 th.is-sorted.asc::after { content: " ↑"; }
 td {
-  padding: 1px 10px 1px 0;
+  padding: 1px 10px 3px 0;
   vertical-align: top;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 td.wrap { white-space: normal; padding-bottom: 10px; }
 .num { text-align: right; padding-right: 0; }
 .t-title { font-style: italic; }
-td.t-title { white-space: normal; overflow: visible; text-overflow: clip; padding-bottom: 3px; }
 tbody tr[data-href] { cursor: pointer; }
 tbody tr.is-hot, tbody tr.is-hot a { color: var(--accent); }
 .authors { display: block; font-style: normal; color: var(--muted); font-size: 15px; margin-top: 2px; }
