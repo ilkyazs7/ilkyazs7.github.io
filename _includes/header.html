@@ -1,12 +1,6 @@
 {%- assign about = site.data.about -%}
-{%- assign at = about.email | split: "@" -%}
 <header class="site-header">
   <a class="wordmark" href="{{ '/' | relative_url }}">{{ about.name }}</a>
-  <nav class="top-links">
-    {% if about.email != "" %}<a class="email" href="#" data-u="{{ at[0] }}" data-d="{{ at[1] }}">Email</a>{% endif %}
-    {% if about.cv_url != "" %}<a href="{{ about.cv_url }}" target="_blank" rel="noopener">CV</a>{% endif %}
-    {% if about.blog_url != "" %}<a href="{{ about.blog_url }}">Blog</a>{% endif %}
-  </nav>
 </header>
 <nav class="tabs" aria-label="Sections">
   {%- assign current = page.tab -%}
