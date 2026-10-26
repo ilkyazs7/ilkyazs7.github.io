@@ -6,7 +6,6 @@ permalink: /about/
 ---
 {%- assign a = site.data.about -%}
 {%- assign at = a.email | split: "@" -%}
-{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
 <main class="archive about">
   <div class="archive-table">
     <div class="about-bio">
@@ -18,20 +17,6 @@ permalink: /about/
       {% if a.blog_url != "" %}<a href="{{ a.blog_url }}">{{ a.blog_label }}</a><br>{% endif %}
     </p>
 
-    <h2 class="table-heading">Publications</h2>
-    <table class="pubs">
-      <colgroup><col class="c-title"><col class="c-inst"><col class="c-year"></colgroup>
-      <thead><tr><th>Title</th><th>Published in</th><th class="num">Year</th></tr></thead>
-      <tbody>
-        {%- for p in pubs %}
-        <tr{% if p.url != "" %} data-href="{{ p.url }}"{% endif %}>
-          <td class="t-title wrap">{% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}<span class="authors">{{ p.authors }}</span></td>
-          <td class="wrap">{{ p.venue }}{% if p.publisher != "" %}, {{ p.publisher }}{% endif %}{% if p.pages != "" %}, {{ p.pages }}{% endif %}</td>
-          <td class="num">{{ p.year }}</td>
-        </tr>
-        {%- endfor %}
-      </tbody>
-    </table>
   </div>
   <div class="archive-images">
     {% if a.portrait and a.portrait != "" %}<img class="portrait" src="{{ a.portrait | relative_url }}" alt="{{ a.name }}">{% endif %}

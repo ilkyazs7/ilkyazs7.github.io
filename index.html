@@ -3,6 +3,7 @@ layout: default
 title: Research
 tab: Research
 ---
+{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
 {%- assign items = site.projects | where: "section", "research" | where_exp: "p", "p.hidden != true" | where_exp: "p", "p.parent == nil" | sort: "year", "first" | reverse -%}
 <main class="archive">
   <div class="archive-table">
@@ -25,6 +26,21 @@ tab: Research
           <td>{{ p.institution_short | default: p.institution | default: "Independent" }}</td>
           <td>{{ p.country }}</td>
           <td>{{ p.type }}</td>
+          <td class="num">{{ p.year }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+
+    <h2 class="table-heading">Publications</h2>
+    <table class="pubs">
+      <colgroup><col class="c-title"><col class="c-inst"><col class="c-year"></colgroup>
+      <thead><tr><th>Title</th><th>Published in</th><th class="num">Year</th></tr></thead>
+      <tbody>
+        {%- for p in pubs %}
+        <tr{% if p.url != "" %} data-href="{{ p.url }}"{% endif %}>
+          <td class="t-title wrap">{% if p.url != "" %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}<span class="authors">{{ p.authors }}</span></td>
+          <td class="wrap">{{ p.venue }}{% if p.publisher != "" %}, {{ p.publisher }}{% endif %}{% if p.pages != "" %}, {{ p.pages }}{% endif %}</td>
           <td class="num">{{ p.year }}</td>
         </tr>
         {%- endfor %}
